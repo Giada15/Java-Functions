@@ -12,6 +12,8 @@ public class JavaDraw {
         int userChoice = scan.nextInt();
 
         draw(userChoice);
+
+        scan.close();
     
     }
 
